@@ -74,6 +74,5 @@ Plugins/**/Intermediate/*
 **/DerivedDataCache/*
 
 **/Content/*
-**/Config/*
 **/*.uproject
 **/*.vsconfig
