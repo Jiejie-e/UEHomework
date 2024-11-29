@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class Class01Target : TargetRules
+public class MyGameEditorTarget : TargetRules
 {
-	public Class01Target(TargetInfo Target) : base(Target)
+	public MyGameEditorTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Game;
+		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
-		ExtraModuleNames.Add("Class01");
+		ExtraModuleNames.Add("MyGame");
 	}
 }
